@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&family=Crimson+Text:wght@600&display=swap");
 h1 {
   text-align: center;
-  color: aqua; }
+  color: aqua;
+  font-family: "Comic Sans MS", "Comic Sans", cursive; }
 
 p {
   text-align: center;
@@ -9,27 +9,35 @@ p {
   font-family: "Comic Sans MS", "Comic Sans", cursive; }
 
 form {
-  text-align: center; }
+  text-align: center;
+  font-family: "Comic Sans MS", "Comic Sans", cursive; }
 
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: center; }
 
 .title {
-  font-family: "Crimson Text", serif;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   text-align: center;
   font-size: 30px;
   padding-top: 10px; }
 
 .boardinfo {
-  font-family: "Coming Soon", cursive;
-  padding: 10px; }
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  padding: 10px;
+  text-align: center; }
 
 .info {
-  font-size: 25px; }
+  font-size: 25px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: center; }
 
 .textboard {
-  margin: 30px 20%; }
+  margin: 30px 20%;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: center; }
 
 .writingboard {
   font-size: 30px;
@@ -37,21 +45,28 @@ form {
   height: 2em;
   overflow: scroll;
   display: block;
-  width: 100%; }
+  width: 100%;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: center; }
 
 .containers {
-  font-family: "Times New Roman", Times, serif; }
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: center; }
 
 .wrap {
   display: flex;
   justify-content: space-between;
-  gap: 10px; }
+  gap: 10px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: center; }
 
 .text {
   color: #7d8082;
   padding: 10px 0px 0px 10px;
   position: relative;
-  display: inline-block; }
+  display: inline-block;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: center; }
 
 .board {
   background-color: #dcd5d5;
@@ -61,58 +76,66 @@ form {
   display: flex;
   flex-direction: column;
   gap: 6px;
-  width: 680px; }
+  width: 680px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: center; }
 
 .btnr {
   padding: 0.4em 15px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   background-color: white;
   border-radius: 6px;
-  cursor: pointer; }
+  cursor: pointer;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: center; }
 
 .rows {
   display: flex;
-  gap: 5px; }
+  gap: 5px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: center; }
 
 .sftbtn {
-  padding: 0.4em 26px; }
+  padding: 0.4em 26px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: center; }
 
 .etrbtn {
-  padding: 0.4em 20px; }
+  padding: 0.4em 20px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: center; }
 
 .spcbtn {
-  padding: 0.4em 206px; }
+  padding: 0.4em 206px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: center; }
 
 @media screen and (max-width: 1300px) and (min-width: 1000px) {
   .board {
-    margin: 30px 20%; } }
+    margin: 30px 20%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center; } }
 @media screen and (max-width: 1000px) and (min-width: 900px) {
   .board {
-    margin: 30px 15%; } }
+    margin: 30px 15%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center; } }
 @media screen and (max-width: 900px) and (min-width: 666px) {
   .board {
-    margin: 30px 5%; } }
+    margin: 30px 5%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center; } }
 @media screen and (max-width: 666px) {
   .board {
-    margin: 30px 0%; } }
-.footer {
-  background-color: black;
-  color: white;
-  display: flex;
-  padding: 15px;
-  justify-content: space-around;
-  font-size: 18px;
-  align-content: center;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center; }
-
+    margin: 30px 0%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center; } }
 #cursor {
   font-size: 30px;
   display: inline-block;
-  padding: 10px 0px 0px 0px; }
+  padding: 10px 0px 0px 0px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: center; }
 
 .btnr::selection {
   user-select: none; }
