@@ -1,183 +1,188 @@
 $text-align: center;
 
+body {
+  background-image: url(https://wallpaperaccess.com/full/473829.jpg);
+  background-size: cover;
+}
+
 h1 {
-    text-align: $text-align;
-    color: aqua;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: $text-align;
+  color: aqua;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 p {
-    text-align: $text-align;
-    font-size: 30px;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: $text-align;
+  font-size: 30px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 form {
-    text-align: $text-align;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: $text-align;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    text-align: $text-align;
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: $text-align;
 }
 
 .title {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    text-align: $text-align;
-    font-size: 30px;
-    padding-top: 10px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: $text-align;
+  font-size: 30px;
+  padding-top: 10px;
 }
 
 .boardinfo {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    padding: 10px;
-    text-align: $text-align;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  padding: 10px;
+  text-align: $text-align;
 }
 
 .info {
-    font-size: 25px;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    text-align: $text-align;
+  font-size: 25px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: $text-align;
 }
 
 .textboard {
-    margin: 30px 20%;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    text-align: $text-align;
+  margin: 30px 20%;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: $text-align;
 }
 
 .writingboard {
-    font-size: 30px;
-    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
-        rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
-    height: 2em;
-    overflow: scroll;
-    display: block;
-    width: 100%;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    text-align: $text-align;
+  font-size: 30px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  height: 2em;
+  overflow: scroll;
+  display: block;
+  width: 100%;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: $text-align;
 }
 
 .containers {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    text-align: $text-align;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: $text-align;
 }
 
 .wrap {
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    text-align: $text-align;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: $text-align;
 }
 
 .text {
-    color: #7d8082;
-    padding: 10px 0px 0px 10px;
-    position: relative;
-    display: inline-block;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    text-align: $text-align;
+  color: #7d8082;
+  padding: 10px 0px 0px 10px;
+  position: relative;
+  display: inline-block;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: $text-align;
 }
 
 .board {
-    background-color: rgb(220, 213, 213);
-    padding: 7px;
-    margin: 30px 25%;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    width: 680px;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    text-align: $text-align;
+  background-color: rgb(220, 213, 213);
+  padding: 7px;
+  margin: 30px 25%;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 680px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: $text-align;
 }
 
 .btnr {
-    padding: 0.4em 15px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    background-color: white;
-    border-radius: 6px;
-    cursor: pointer;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    text-align: $text-align;
+  padding: 0.4em 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: $text-align;
 }
 
 .rows {
-    display: flex;
-    gap: 5px;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    text-align: $text-align;
+  display: flex;
+  gap: 5px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: $text-align;
 }
 
 .sftbtn {
-    padding: 0.4em 26px;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    text-align: $text-align;
+  padding: 0.4em 26px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: $text-align;
 }
 
 .etrbtn {
-    padding: 0.4em 20px;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    text-align: $text-align;
+  padding: 0.4em 20px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: $text-align;
 }
 
 .spcbtn {
-    padding: 0.4em 206px;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    text-align: $text-align;
+  padding: 0.4em 206px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: $text-align;
 }
 
 @media screen and (max-width: 1300px) and (min-width: 1000px) {
-    .board {
-        margin: 30px 20%;
-        font-family: "Comic Sans MS", "Comic Sans", cursive;
-        text-align: $text-align;
-    }
+  .board {
+    margin: 30px 20%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: $text-align;
+  }
 }
 
 @media screen and (max-width: 1000px) and (min-width: 900px) {
-    .board {
-        margin: 30px 15%;
-        font-family: "Comic Sans MS", "Comic Sans", cursive;
-        text-align: $text-align;
-    }
+  .board {
+    margin: 30px 15%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: $text-align;
+  }
 }
 
 @media screen and (max-width: 900px) and (min-width: 666px) {
-    .board {
-        margin: 30px 5%;
-        font-family: "Comic Sans MS", "Comic Sans", cursive;
-        text-align: $text-align;
-    }
+  .board {
+    margin: 30px 5%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: $text-align;
+  }
 }
 
 @media screen and (max-width: 666px) {
-    .board {
-        margin: 30px 0%;
-        font-family: "Comic Sans MS", "Comic Sans", cursive;
-        text-align: $text-align;
-    }
+  .board {
+    margin: 30px 0%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: $text-align;
+  }
 }
 
 #cursor {
-    font-size: 30px;
-    display: inline-block;
-    padding: 10px 0px 0px 0px;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    text-align: $text-align;
+  font-size: 30px;
+  display: inline-block;
+  padding: 10px 0px 0px 0px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: $text-align;
 }
 
 .btnr::selection {
-    user-select: none;
+  user-select: none;
 }
 
 .btnr:hover {
-    background-color: rgb(233, 228, 228);
+  background-color: rgb(233, 228, 228);
 }
 
 .btnr:active {
-    background-color: rgb(177, 176, 176);
+  background-color: rgb(177, 176, 176);
 }
